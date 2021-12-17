@@ -1,0 +1,144 @@
+/*  ============== Product ========== */
+.product {
+    padding-top: 100px;
+}
+
+.product__title {
+    font-family: var(--hm-sbold);
+    font-size: 44.2px;
+    line-height: 61px;
+    text-align: center;
+}
+
+.product__list {
+    font-family: var(--rob-med);
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.product__list_link {
+    opacity: 0.6;
+    transition: .1s;
+}
+
+.product__list_link:hover {
+    border-bottom: 3px solid #D64374;
+    margin-bottom: 4px;
+    opacity: 1;
+}
+
+.product__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.product__box_title {
+    font-family: var(--hm-sbold);
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.product__text {
+    font-family: var(--rob-reg);
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 454px;
+    margin-bottom: 28px;
+    opacity: 0.7;
+}
+
+.product__price {
+    font-family: var(--hm-med);
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.product__price_span {
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+}
+
+@media (max-width:1400px) {
+    .product__img {
+        max-width: 465px;
+    }
+  
+}
+
+@media (max-width:1200px) {
+    .product__title {
+        font-size: 36.2px;
+    }
+}
+
+@media (max-width:1000px) {
+    .product__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .product__box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #product__box_two {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width:576px) {
+    .product__title {
+        font-size: 30.2px;
+    }
+
+    .product__list {
+        font-size: 14px;
+    }
+
+    .product__img {
+        max-width: 300px;
+        margin-right: 0;
+    }
+
+    .product__box_title {
+        font-size: 23px;
+        line-height: 23px;
+    }
+
+    .product__text {
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 422px;
+        margin-bottom: 7px;
+    }
+
+    .product__price {
+        font-size: 22px;
+        line-height: 20px;
+        margin-bottom: 18px;
+    }
+    .product__title{
+        font-size: 25px;
+        line-height: 30px;
+        margin-left: 40px;
+    }
+    .product__box_title{
+        font-size: 25px;
+        line-height: 30px;
+    }
+}

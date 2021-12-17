@@ -1,0 +1,259 @@
+@import 'font.css';
+@import 'nav.css';
+@import 'header.css';
+@import 'delivery.css';
+@import 'product.css';
+@import 'slider.css';
+@import 'simple.css';
+@import 'footer.css';
+
+
+:root {
+    --rob-reg: 'Roboto Regular';
+    --rob-med: 'Roboto Medium';
+    --rob-bold: 'Roboto Bold';
+    --hm-bold: 'HindMadurai-Bold';
+    --hm-med: 'HindMadurai-meduim';
+    --hm-sbold: 'HindMadurai-semi-bold';
+    --hm-reg: 'HindMadurai-Regular';
+    --doka-one: 'Fredoka One';
+
+}
+
+html {
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+p {
+    margin-bottom: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+
+}
+
+a:hover {
+    color: initial;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+
+
+
+
+/* =========== Details ============= */
+
+.details {
+    background: #F8EDF0;
+    width: 100%;
+    min-height: 544px;
+}
+
+.details__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details__title {
+    font-family: var(--hm-sbold);
+    font-size: 44.2px;
+    line-height: 49px;
+    max-width: 349px;
+    color: #150101;
+    margin-bottom: 16px;
+}
+
+.details__description {
+    font-family: var(--rob-med);
+    font-size: 16px;
+    line-height: 24px;
+    color: #150101;
+    opacity: 0.6;
+    margin-bottom: 35px;
+}
+
+
+@media (max-width:1400px) {
+    .details__img {
+        max-width: 465px;
+    }
+
+}
+
+@media (max-width:992px) {
+    .details__img {
+        max-width: 400px;
+    }
+
+    .details {
+        min-height: 450px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .details__inner {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .details__title {
+        max-width: initial;
+        font-size: 32.2px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        padding-top: 55px;
+    }
+
+}
+
+@media (max-width:576px) {
+    .details__title {
+        font-size: 28.2px;
+        line-height: 25px;
+        padding-top: 55px;
+    }
+
+    .details__description {
+        margin-bottom: 20px;
+        line-height: 24px;
+        font-size: 15px;
+    }
+
+    .details__img {
+        max-width: 316px;
+    }
+
+    .details__title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width:320px) {
+    .details__img {
+        max-width: 296px;
+    }
+}
+
+    /* ======= Question ======= */
+    .questions {
+        padding: 191px 0;
+    }
+
+    .questions__title {
+        font-family: var(--rob-med);
+        font-size: 44px;
+        line-height: 52px;
+        text-align: center;
+        max-width: 522px;
+        width: 100%;
+    }
+
+    .questions__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .questions__input {
+        width: 637px;
+        padding: 30px;
+        text-align: left;
+        border-radius: 5px;
+        background: #FAFAFA;
+        border: none;
+    }
+
+    .questions__button {
+        padding: 30px 39px;
+        background: #D64374;
+        border-radius: 5px;
+        border: none;
+        color: #fafafa;
+        margin-left: -5px;
+    } 
+
+    @media (max-width:992px) {
+        .questions__box {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+        }
+
+        .questions__title {
+            max-width: 424px;
+            font-size: 40px;
+            line-height: 45px;
+        }
+    }
+
+    @media (max-width:768px) {
+        .questions__input {
+            width: 280px;
+            padding: 10px;
+        }
+
+        .questions__title {
+            max-width: 371px;
+            font-size: 35px;
+            line-height: 40px;
+        }
+
+        .questions__button {
+            padding: 20px 20px;
+        }
+    } 
+
+    @media (max-width:576px) {
+        .questions {
+            padding: 120px 0;
+        }
+
+        .questions__title {
+            max-width: 223px;
+            font-size: 21px;
+            line-height: 27px;
+        }
+
+        .questions__input {
+            width: 247px;
+            padding: 11px;
+            margin-top: 20px;
+        }
+
+        .questions__button {
+            padding: 9px 0px;
+        }
+
+        .questions__box {
+            grid-template-columns: none;
+        }
+    }
+ 
+    

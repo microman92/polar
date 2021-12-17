@@ -1,0 +1,88 @@
+/* ============ Delivery ============== */
+.delivery {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.delivery__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery__inner {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.100);
+    background: #FFFFFF;
+    border-radius: 7px;
+    text-align: center;
+    padding: 0 26px;
+    border: 1px solid rgba(0, 0, 0, 0.200);
+
+}
+
+.delivery__inner:hover {
+    border: none;
+    box-shadow: none;
+}
+
+.delivery__img {
+    padding-bottom: 24.65px;
+    padding-top: 33px;
+}
+
+.cards__title {
+    padding-bottom: 9px;
+    font-family: 'HindMadurai-semi-bold';
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.cards__text {
+    max-width: 198px;
+    font-family: 'HindMadurai-Regular';
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 27px;
+}
+
+@media (max-width:1200px) {
+    .delivery__cards {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .cards__title {
+        padding-bottom: 6px;
+        font-size: 17px;
+        line-height: 15px;
+    }
+
+    .delivery__img {
+        padding-bottom: 15.65px;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    .delivery {
+        padding: 0px 10px;
+    }
+
+    .delivery__img {
+        padding-top: 22px;
+    }
+
+    .cards__title {
+        font-size: 15px;
+        line-height: 12px;
+    }
+
+    .cards__text {
+        max-width: 149px;
+        font-size: 13px;
+        line-height: 19px;
+        padding-bottom: 20px;
+    }
+}

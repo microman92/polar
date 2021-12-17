@@ -1,0 +1,148 @@
+/* ========== Header ======== */
+.header {
+    background: rgba(242, 206, 218, .3);
+    min-height: 862px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    min-height: 670px;
+    overflow: hidden;
+
+}
+
+.header__left {
+    width: 100%;
+    max-width: 666px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub__title {
+    font-family: 'Roboto Medium';
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 6px;
+}
+
+.header__left_title {
+    font-family: 'Fredoka One';
+    font-size: 57.33px;
+    line-height: 69px;
+    color: #0F0101;
+    opacity: 0.9;
+    max-width: 665px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.title__span {
+    color: #D23166;
+}
+
+.left__description {
+    font-family: 'HindMadurai-Regular';
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+    margin-bottom: 50px;
+}
+
+
+.header__img {
+    max-width: 894px;
+    width: 100%;
+}
+
+@media (max-width:1400px) {
+    .header {
+        min-height: 740px;
+    }
+
+    .header__content {
+        min-height: 550px;
+    }
+
+    .header__img {
+        max-width: 800px;
+        width: 100%;
+    }
+
+    .header__left_title {
+        font-size: 44px;
+        line-height: 60px;
+        color: #0F0101;
+        opacity: 0.9;
+        max-width: 500px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .left__description {
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width:992px) {
+    .header {
+        min-height: 500px;
+    }
+
+    .header__left_title {
+        font-size: 28px;
+        line-height: 35px;
+        color: #0F0101;
+        opacity: 0.9;
+        max-width: 325px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .header__content {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .header__left {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .header__left_title {
+        margin: auto;
+    }
+
+    .header__img {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    .header__img {
+        max-width: 430px;
+    }
+
+    .left__description {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .header__left_title {
+        font-size: 25px;
+        line-height: 30px;
+        max-width: 284px;
+    }
+    .button{
+        padding: 12px 36px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+}

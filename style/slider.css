@@ -1,0 +1,270 @@
+/*  ======== Slider ======== */
+
+.slider__text-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: var(--rob-med);
+}
+
+.slider__text-subtitle {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: start;
+}
+
+.slider__btn_prev {
+    left: 28px;
+    top: 137%;
+    bottom: -54%;
+
+}
+
+.awesome__btn_prev {
+    position: absolute;
+    left: 0px;
+    top: 6px;
+    bottom: -4%;
+    bottom: -50%;
+    font-size: 13px;
+    color: #D64374;
+}
+
+.slider__btn_next {
+    right: 150px;
+    top: 137%;
+    bottom: -54%;
+    font-size: 13px;
+    color: #D64374;
+    position: absolute;
+}
+
+.awesome__btn_next {
+    right: 24px;
+    top: 26%;
+    bottom: -53%;
+    font-size: 14px;
+    color: #D64374;
+    position: absolute;
+}
+
+.slider__img {
+    width: 59px;
+    height: 58px;
+    margin-right: 21px;
+}
+
+.user__review {
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.7;
+    font-family: var(--rob-reg);
+    text-align: left;
+    padding-left: 20px;
+}
+
+.info {
+    margin-bottom: 26px;
+}
+
+.user__review::after {
+    content: url(../image/dotts.svg);
+    width: 11px;
+    height: 10px;
+    top: -10%;
+    left: 5px;
+    position: absolute;
+}
+
+.user__review::before {
+    content: url(../image/dots.svg);
+    width: 11px;
+    height: 10px;
+    right: 23%;
+    top: 75%;
+    position: absolute;
+}
+
+.carousel-indicators {
+    width: 100%;
+    max-width: 180px;
+    margin: 0;
+    bottom: -72px;
+    left: 22px;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: transparent;
+}
+
+
+
+.indicator {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    background: transparent;
+    margin-right: 27px;
+}
+
+.indicator:last-child {
+    margin-right: 0;
+}
+
+.slider__img-indicator {
+    position: static;
+    width: 100%;
+}
+
+.indicator.active>.slider__img-indicator {
+    transform: scale(1.66);
+    transition: transform .3s linear;
+    border: 1px solid #D64374;
+    border-radius: 50%;
+}
+
+@media(max-width:1400px) {
+    .user__review::before {
+        right: 55%;
+        top: 61%;
+    }
+
+    .slider__btn_next {
+        right: 433px;
+        top: 140%;
+    }
+
+    .slider__btn_prev {
+        left: 30px;
+        top: 140%;
+    }
+
+}
+
+@media(max-width:1200px) {
+    .user__review::before {
+        right: 78%;
+        top: 73%;
+    }
+
+    .slider__btn_next {
+        right: 250px;
+        top: 140%;
+    }
+}
+
+
+@media (max-width:1000px) {
+    #product__slider {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+
+    */ .product__slider {
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-inner {
+        width: 59%;
+        margin: 0 auto;
+    }
+
+    .carousel-indicators {
+        max-width: 100%;
+        bottom: -40px;
+        left: 0px;
+    }
+
+    .user__review::before {
+        right: 10%;
+        top: 62%;
+    }
+
+    .user__review {
+        text-align: center;
+    }
+
+    .slider__btn_prev {
+        left: 160px;
+        top: 48%;
+    }
+
+    .slider__btn_next {
+        /* top:0 ;  */
+        top: 27px;
+        right: 148px;
+    }
+
+}
+
+@media (max-width:992px) {
+
+    .slider__btn_prev {
+        left: 125px;
+    }
+
+    .slider__btn_next {
+        top: 29px;
+        right: 98px;
+    }
+
+    .user__review::before {
+        right: 29%;
+        top: 72%;
+    }
+}
+
+@media (max-width:768px) {
+    .slider__btn_prev {
+        left: 0px;
+        top: 83px;
+    }
+
+    .slider__btn_next {
+        top: 52px;
+        right: -36px;
+    }
+
+    .user__review::before {
+        top: 64%;
+        right: 4%;
+    }
+    .user__review::after{
+        left: 22px;
+    }
+    .carousel-inner {
+        width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+
+    .slider__text-title {
+        font-size: 18px;
+    }
+
+    .slider__img {
+        margin-right: 15px;
+    }
+    .slider__btn_next{
+       display: none;
+    }
+    .slider__btn_prev{
+        display: none;
+    }
+
+
+     .user__review::after {
+      display: none;
+    }
+    .user__review::before {
+        display: none;
+    }
+    .d-flex{
+        justify-content: center;
+    }
+}
+
+
