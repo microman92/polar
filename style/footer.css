@@ -52,6 +52,11 @@
 
 }
 
+.footer__links {
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .footer__follow {
     font-family: var(--rob-med);
     font-size: 12px;
@@ -156,4 +161,3 @@
         flex-direction: column-reverse;
     }
 }
-
