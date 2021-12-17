@@ -8,7 +8,7 @@
 
 .nav__list {
     display: flex;
-    gap: 40px;
+    margin-right: 40px;
     margin-bottom: 0;
     align-items: center;
 }
@@ -43,6 +43,9 @@
     color: #150101;
     opacity: 0.6;
     transition: 0.3s;
+    display: inline-block; 
+    margin-bottom: 12px;
+    margin-left: 40px;
 }
 
 #nav__list_link {
@@ -114,7 +117,7 @@
     .burger__active {
         position: absolute;
         top: 45px;
-        right: -90px;
+        
     }
 
     .burger__active::before {
@@ -135,7 +138,7 @@
 @media (max-width:1200px) {
 
     #nav__list_link {
-        margin-right: 98px;
+        margin-right: 118px;
     }
 }
 
@@ -148,12 +151,13 @@
     #nav__button {
         padding: 0px;
         background-color: #da4375;
+        margin-left: 39px;
     }
 
     .nav__btn {
         display: block;
         position: absolute;
-        right: 25px;
+        left: 87%;
     }
 
     #nav__list_link {
@@ -163,7 +167,6 @@
     .nav__list {
         display: flex;
         flex-direction: column;
-        gap: 10px;
         transform: translate(0%, -100%);
         position: absolute;
         width: 100%;
@@ -178,7 +181,7 @@
     .nav__list.active {
         top: 193px;
         z-index: 1;
-        text-align: center;
+      text-align: center;
     }
 
 
