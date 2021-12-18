@@ -102,10 +102,6 @@
 }
 
 @media (max-width:576px) {
-    .product__title {
-        font-size: 30.2px;
-    }
-
     .product__list {
         font-size: 14px;
     }
@@ -135,7 +131,6 @@
     .product__title{
         font-size: 25px;
         line-height: 30px;
-        margin-left: 40px;
     }
     .product__box_title{
         font-size: 25px;
