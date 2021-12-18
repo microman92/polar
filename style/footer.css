@@ -29,7 +29,6 @@
     opacity: 0.7;
     max-width: 207px;
     margin-bottom: 25px;
-    text-align: center;
 }
 
 .footer__links {
@@ -160,5 +159,8 @@
     .footer__inner {
         display: flex;
         flex-direction: column-reverse;
+    }
+    .footer__text{
+        text-align: center;
     }
 }
