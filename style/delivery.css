@@ -20,7 +20,7 @@
 }
 
 .delivery__inner:hover {
-    border: none;
+    border-color: transparent;
     box-shadow: none;
 }
 
