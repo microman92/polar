@@ -13,7 +13,7 @@
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap" style="max-width: 100%;"></a>
 
 # Снимок сайта
-<a href="https://microman92.github.io/polar/" target="_blank">
+<a href="https://microman92.github.io/polar/" target="_blank" rel="noreferrer">
 <img src="https://github.com/microman92/polar/assets/90110834/88caa203-2a79-4a74-83ae-c56b4c5e7f12" style="max-width: 100%;">
 </a>
 
